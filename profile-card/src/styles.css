@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+form {
+  text-align: center;
+  margin-top: 60px;
+}
+input,
+button {
+  width: 200px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+aside {
+  width: 60%;
+  padding: 15px;
+  margin-left: 5px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  form {
+    margin-top: 60px;
+  }
+  input,
+  button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 130px;
+  }
+  aside {
+    width: 60%;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 0px;
+    float: right;
+    font-style: italic;
+    background-color: purple;
+  }
+}
+
+/*  MOBILE  */
+@media (max-width: 480px) {
+  input,
+  button {
+    /* display: block; */
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 100px;
+  }
+  aside {
+    width: 60%;
+    padding-left: 10px;
+    margin: 15px;
+    margin-top: 0px;
+    float: right;
+    font-style: italic;
+    background-color: yellow;
+  }
+}
