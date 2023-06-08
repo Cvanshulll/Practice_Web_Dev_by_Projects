@@ -1,0 +1,84 @@
+body {
+  background-color: purple;
+}
+#center_div {
+  position: absolute;
+  width: 400px;
+  height: 440px;
+  top: 30%;
+  left: 46%;
+  margin: -100px 0 0 -150px;
+  background: lightblue;
+}
+.main_div {
+  text-align: center;
+}
+input {
+  width: 260px;
+  height: 30px;
+}
+.put {
+  margin: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: blue;
+}
+.put:hover {
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+.cut {
+  margin: 0px 5px;
+  border-radius: 20px;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+.cut:hover {
+  background-color: red;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: purple;
+  }
+
+  #center_div {
+    position: absolute;
+    width: 300px;
+    height: 460px;
+    z-index: 15;
+    top: 30%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: lightgreen;
+  }
+  input {
+    width: 180px;
+    height: 25px;
+  }
+  ul {
+    list-style: none;
+    text-align: left;
+  }
+  .cut {
+    margin: 0px 5px;
+    border-radius: 20px;
+    color: red;
+    border: none;
+    cursor: pointer;
+  }
+  .cut:hover {
+    background-color: red;
+    color: white;
+  }
+}
